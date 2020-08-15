@@ -63,4 +63,92 @@ body{
   width: 60%;
   transform: translateX(-10%) rotate(25deg);
   transform-origin: bottom right;
+
+}
+
+.feature-container{
+  margin: 5% auto;
+
+}
+
+.feature-icon{
+    margin-top: 5%;
+   font-size:3.5rem;
+   color:#ef8172;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+.feature-icon:hover{
+  color:#ff4c68;
+}
+
+.feature-container p,h3{
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.feature-container p{
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom:5%;
+}
+
+
+.feature-container h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+#testimonials h2{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 20%;
+  border-radius: 50%;
+  margin:20px;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+#testimonials .carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#press img{
+  padding-bottom: 20px;
+  margin:0 30px;
+  width: 15%;
+}
+
+
+#pricing{
+  text-align:center;
+  padding:100px;
+}
+
+.card-col{
+  padding: 3% 2%;
+
 }
