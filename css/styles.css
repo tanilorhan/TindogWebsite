@@ -22,6 +22,7 @@ body{
 
 .container-fluid{
   padding: 3% 15%;
+  padding-bottom: 100px;
 }
 
 /* NAVBAR */
@@ -59,16 +60,20 @@ body{
 
 
 .title-img{
-  margin-top: 10%;
+  margin-top: 0;
   width: 60%;
-  transform: translateX(-10%) rotate(25deg);
+  transform: rotate(25deg);
   transform-origin: bottom right;
-
+  transform-origin: center;
+  position: absolute;
+  right:30%;
 }
 
 .feature-container{
-  margin: 5% auto;
-
+  padding: 10% 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-icon{
@@ -150,5 +155,17 @@ body{
 
 .card-col{
   padding: 3% 2%;
+}
 
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform:rotate(0);
+    transform: scale(0.8);
+    padding:0;
+  }
 }
