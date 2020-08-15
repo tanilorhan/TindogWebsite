@@ -169,3 +169,35 @@ body{
     padding:0;
   }
 }
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color:white;
+  line-height: 1.5;
+  padding:7% 15%;
+}
+
+#cta h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#cta button{
+  margin: 5% 3%;
+}
+
+#footer{
+  background-color: #fff;
+  padding:7% 15%;
+  text-align: center;
+}
+
+#footer i{
+  margin: 3% 3%;
+}
+
+#footer p{
+  color:#8f8f8f;
+}
